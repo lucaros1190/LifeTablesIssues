@@ -1,6 +1,6 @@
 % Script for LTI system - Corcyra case
 % Created by Luca Rossini on 22 July 2022
-% Last update 2 June 2023
+% Last update 15 October 2023
 % e-mail luca.rossini@unitus.it
 
 
@@ -10,107 +10,107 @@
     % Here the individuals in each stage per day are reported
     % The day zero is reset for each stage (scaled population)
 
-    % Eggs 18캜
+    % Eggs 18째C
 
 Eggs_18 = xlsread('InputData-LifTabCorcyra.xlsx', '18C', 'I2:I16');
 DelayEggs_18 = xlsread('InputData-LifTabCorcyra.xlsx', '18C', 'B2:B8');
 
-    % Eggs 21캜
+    % Eggs 21째C
 
 Eggs_21 = xlsread('InputData-LifTabCorcyra.xlsx', '21C', 'I2:I16');
 DelayEggs_21 = xlsread('InputData-LifTabCorcyra.xlsx', '21C', 'B2:B33');
 
-    % Eggs 24캜
+    % Eggs 24째C
 
 Eggs_24 =  xlsread('InputData-LifTabCorcyra.xlsx', '24C', 'I2:I16');
 DelayEggs_24 =  xlsread('InputData-LifTabCorcyra.xlsx', '24C', 'B2:B116');
 
-    % Eggs 26캜
+    % Eggs 26째C
 
 Eggs_26 = xlsread('InputData-LifTabCorcyra.xlsx', '26C', 'I2:I16');
 DelayEggs_26 = xlsread('InputData-LifTabCorcyra.xlsx', '26C', 'B2:B138');
 
-    % Eggs 28캜
+    % Eggs 28째C
 
 Eggs_28 = xlsread('InputData-LifTabCorcyra.xlsx', '28C', 'I2:I16');
 DelayEggs_28 = xlsread('InputData-LifTabCorcyra.xlsx', '28C', 'B2:B63');
 
-    % Eggs 30캜
+    % Eggs 30째C
 
 Eggs_30 = xlsread('InputData-LifTabCorcyra.xlsx', '30C', 'I2:I16');
 DelayEggs_30 = xlsread('InputData-LifTabCorcyra.xlsx', '30C', 'B2:B130');
 
-    % Eggs 34캜
+    % Eggs 34째C
 
 Eggs_34 = xlsread('InputData-LifTabCorcyra.xlsx', '34C', 'I2:I16');
 DelayEggs_34 = xlsread('InputData-LifTabCorcyra.xlsx', '34C', 'B2:B13');
 
-    % Larvae 18캜 
+    % Larvae 18째C 
 
 Larvae_18 = xlsread('InputData-LifTabCorcyra.xlsx', '18C', 'J2:J70');
 DelayLarvae_18 = xlsread('InputData-LifTabCorcyra.xlsx', '18C', 'C2:C8');
 
-    % Larvae 21캜
+    % Larvae 21째C
 
 Larvae_21 = xlsread('InputData-LifTabCorcyra.xlsx', '21C', 'J2:J70');
 DelayLarvae_21 = xlsread('InputData-LifTabCorcyra.xlsx', '21C', 'C2:C33');
 
-    % Larvae 24캜
+    % Larvae 24째C
 
 Larvae_24 = xlsread('InputData-LifTabCorcyra.xlsx', '24C', 'J2:J70');
 DelayLarvae_24 = xlsread('InputData-LifTabCorcyra.xlsx', '24C', 'C2:C116');
 
-    % Larvae 26캜
+    % Larvae 26째C
 
 Larvae_26 = xlsread('InputData-LifTabCorcyra.xlsx', '26C', 'J2:J70');
 DelayLarvae_26 = xlsread('InputData-LifTabCorcyra.xlsx', '26C', 'C2:C138');
 
-    % Larvae 28캜
+    % Larvae 28째C
 
 Larvae_28 = xlsread('InputData-LifTabCorcyra.xlsx', '28C', 'J2:J70');
 DelayLarvae_28 = xlsread('InputData-LifTabCorcyra.xlsx', '28C', 'C2:C63');
  
-    % Larvae 30캜
+    % Larvae 30째C
 
 Larvae_30 = xlsread('InputData-LifTabCorcyra.xlsx', '30C', 'J2:J70');
 DelayLarvae_30 = xlsread('InputData-LifTabCorcyra.xlsx', '30C', 'C2:C130');
 
-    % Larvae 34캜
+    % Larvae 34째C
 
 Larvae_34 = xlsread('InputData-LifTabCorcyra.xlsx', '34C', 'J2:J70');
 DelayLarvae_34 = xlsread('InputData-LifTabCorcyra.xlsx', '34C', 'C2:C13');
 
-    % Pupae 18캜
+    % Pupae 18째C
 
 Pupae_18 = xlsread('InputData-LifTabCorcyra.xlsx', '18C', 'K2:K45');
 DelayPupae_18 = xlsread('InputData-LifTabCorcyra.xlsx', '18C', 'D2:D8');
 
-    % Pupae 21캜
+    % Pupae 21째C
 
 Pupae_21 = xlsread('InputData-LifTabCorcyra.xlsx', '21C', 'K2:K45');
 DelayPupae_21 = xlsread('InputData-LifTabCorcyra.xlsx', '21C', 'D2:D33');
 
-    % Pupae 24캜
+    % Pupae 24째C
 
 Pupae_24 = xlsread('InputData-LifTabCorcyra.xlsx', '24C', 'K2:K45');
 DelayPupae_24 = xlsread('InputData-LifTabCorcyra.xlsx', '24C', 'D2:D116');
 
-    % Pupae 26캜
+    % Pupae 26째C
 
 Pupae_26 = xlsread('InputData-LifTabCorcyra.xlsx', '26C', 'K2:K45');
 DelayPupae_26 = xlsread('InputData-LifTabCorcyra.xlsx', '26C', 'D2:D138');
 
-    % Pupae 28캜
+    % Pupae 28째C
 
 Pupae_28 = xlsread('InputData-LifTabCorcyra.xlsx', '28C', 'K2:K45');
 DelayPupae_28 = xlsread('InputData-LifTabCorcyra.xlsx', '28C', 'D2:D63');
 
-    % Pupae 30캜
+    % Pupae 30째C
 
 Pupae_30 = xlsread('InputData-LifTabCorcyra.xlsx', '30C', 'K2:K45');
 DelayPupae_30 = xlsread('InputData-LifTabCorcyra.xlsx', '30C', 'D2:D130');
 
-    % Pupae 34캜
+    % Pupae 34째C
 
 Pupae_34 = xlsread('InputData-LifTabCorcyra.xlsx', '34C', 'K2:K45');
 DelayPupae_34 = xlsread('InputData-LifTabCorcyra.xlsx', '34C', 'D2:D13');
@@ -160,43 +160,43 @@ InitEggs_34 = 40;
     % Eggs + Larvae maintaining the individuality of the specimen, Pupae is
     % the same but considering Eggs + Larvae + Pupae
 
-    % Life cycle 18캜
+    % Life cycle 18째C
 
 WLF_Eggs_18 = xlsread('InputData-LifTabCorcyra.xlsx', '18C', 'L2:L16');
 WLF_Larvae_18 = xlsread('InputData-LifTabCorcyra.xlsx', '18C', 'M2:M80');
 WLF_Pupae_18 = xlsread('InputData-LifTabCorcyra.xlsx', '18C', 'N2:N126');
 
-    % Life cycle 21캜
+    % Life cycle 21째C
 
 WLF_Eggs_21 = xlsread('InputData-LifTabCorcyra.xlsx', '21C', 'L2:L16');
 WLF_Larvae_21 = xlsread('InputData-LifTabCorcyra.xlsx', '21C', 'M2:M80');
 WLF_Pupae_21 = xlsread('InputData-LifTabCorcyra.xlsx', '21C', 'N2:N126');
 
-    % Life cycle 24캜
+    % Life cycle 24째C
 
 WLF_Eggs_24 = xlsread('InputData-LifTabCorcyra.xlsx', '24C', 'L2:L16');
 WLF_Larvae_24 = xlsread('InputData-LifTabCorcyra.xlsx', '24C', 'M2:M80');
 WLF_Pupae_24 = xlsread('InputData-LifTabCorcyra.xlsx', '24C', 'N2:N126');
 
-    % Life cycle 26캜
+    % Life cycle 26째C
 
 WLF_Eggs_26 = xlsread('InputData-LifTabCorcyra.xlsx', '26C', 'L2:L16');
 WLF_Larvae_26 = xlsread('InputData-LifTabCorcyra.xlsx', '26C', 'M2:M80');
 WLF_Pupae_26 = xlsread('InputData-LifTabCorcyra.xlsx', '26C', 'N2:N126');
 
-    % Life cycle 28캜
+    % Life cycle 28째C
 
 WLF_Eggs_28 = xlsread('InputData-LifTabCorcyra.xlsx', '28C', 'L2:L16');
 WLF_Larvae_28 = xlsread('InputData-LifTabCorcyra.xlsx', '28C', 'M2:M80');
 WLF_Pupae_28 = xlsread('InputData-LifTabCorcyra.xlsx', '28C', 'N2:N126');
 
-    % Life cycle 30캜
+    % Life cycle 30째C
 
 WLF_Eggs_30 = xlsread('InputData-LifTabCorcyra.xlsx', '30C', 'L2:L16');
 WLF_Larvae_30 = xlsread('InputData-LifTabCorcyra.xlsx', '30C', 'M2:M80');
 WLF_Pupae_30 = xlsread('InputData-LifTabCorcyra.xlsx', '30C', 'N2:N126');
 
-    % Life cycle 34캜
+    % Life cycle 34째C
 
 WLF_Eggs_34 = xlsread('InputData-LifTabCorcyra.xlsx', '34C', 'L2:L16');
 WLF_Larvae_34 = xlsread('InputData-LifTabCorcyra.xlsx', '34C', 'M2:M80');
@@ -260,7 +260,7 @@ Impulse_WLF_Pupae_34 = WLF_Pupae_34 / TotalPupae_34;
 % Mode, median, and skewness are reported for plotting purposes as well
 
 
-    % Eggs 18캜
+    % Eggs 18째C
 
 ElabData_MeanEggs_18 = mean(DelayEggs_18);
 ElabData_DevStEggs_18 = std(DelayEggs_18);
@@ -274,7 +274,7 @@ TimeUnits_Eggs_18 = linspace(1, length(ImpulseEggs_18), length(ImpulseEggs_18));
 NormEggs_18 = normpdf(TimeUnits_Eggs_18, ElabData_MeanEggs_18, ...
     ElabData_DevStEggs_18);
 
-    % Eggs 21캜
+    % Eggs 21째C
 
 ElabData_MeanEggs_21 = mean(DelayEggs_21);
 ElabData_DevStEggs_21 = std(DelayEggs_21);
@@ -288,7 +288,7 @@ TimeUnits_Eggs_21 = linspace(1, length(ImpulseEggs_21), length(ImpulseEggs_21));
 NormEggs_21 = normpdf(TimeUnits_Eggs_21, ElabData_MeanEggs_21, ...
     ElabData_DevStEggs_21);
 
-    % Eggs 24캜
+    % Eggs 24째C
 
 ElabData_MeanEggs_24 = mean(DelayEggs_24);
 ElabData_DevStEggs_24 = std(DelayEggs_24);
@@ -302,7 +302,7 @@ TimeUnits_Eggs_24 = linspace(1, length(ImpulseEggs_24), length(ImpulseEggs_24));
 NormEggs_24 = normpdf(TimeUnits_Eggs_24, ElabData_MeanEggs_24, ...
     ElabData_DevStEggs_24);
 
-    % Eggs 26캜
+    % Eggs 26째C
 
 ElabData_MeanEggs_26 = mean(DelayEggs_26);
 ElabData_DevStEggs_26 = std(DelayEggs_26);
@@ -316,7 +316,7 @@ TimeUnits_Eggs_26 = linspace(1, length(ImpulseEggs_26), length(ImpulseEggs_26));
 NormEggs_26 = normpdf(TimeUnits_Eggs_26, ElabData_MeanEggs_26, ...
     ElabData_DevStEggs_26);
 
-    % Eggs 28캜
+    % Eggs 28째C
 
 ElabData_MeanEggs_28 = mean(DelayEggs_28);
 ElabData_DevStEggs_28 = std(DelayEggs_28);
@@ -330,7 +330,7 @@ TimeUnits_Eggs_28 = linspace(1, length(ImpulseEggs_28), length(ImpulseEggs_28));
 NormEggs_28 = normpdf(TimeUnits_Eggs_28, ElabData_MeanEggs_28, ...
     ElabData_DevStEggs_28);
 
-    % Eggs 30캜
+    % Eggs 30째C
 
 ElabData_MeanEggs_30 = mean(DelayEggs_30);
 ElabData_DevStEggs_30 = std(DelayEggs_30);
@@ -344,7 +344,7 @@ TimeUnits_Eggs_30 = linspace(1, length(ImpulseEggs_30), length(ImpulseEggs_30));
 NormEggs_30 = normpdf(TimeUnits_Eggs_30, ElabData_MeanEggs_30, ...
     ElabData_DevStEggs_30);
 
-    % Eggs 34캜
+    % Eggs 34째C
 
 ElabData_MeanEggs_34 = mean(DelayEggs_34);
 ElabData_DevStEggs_34 = std(DelayEggs_34);
@@ -358,7 +358,7 @@ TimeUnits_Eggs_34 = linspace(1, length(ImpulseEggs_34), length(ImpulseEggs_34));
 NormEggs_34 = normpdf(TimeUnits_Eggs_34, ElabData_MeanEggs_34, ...
     ElabData_DevStEggs_34);
 
-    % Larvae 18캜
+    % Larvae 18째C
 
 ElabData_MeanLarvae_18 = mean(DelayLarvae_18);
 ElabData_DevStLarvae_18 = std(DelayLarvae_18);
@@ -372,7 +372,7 @@ TimeUnits_Larvae_18 = linspace(1, length(ImpulseLarvae_18), length(ImpulseLarvae
 NormLarvae_18 = normpdf(TimeUnits_Larvae_18, ElabData_MeanLarvae_18, ...
     ElabData_DevStLarvae_18);
 
-    % Larvae 21캜
+    % Larvae 21째C
 
 ElabData_MeanLarvae_21 = mean(DelayLarvae_21);
 ElabData_DevStLarvae_21 = std(DelayLarvae_21);
@@ -386,7 +386,7 @@ TimeUnits_Larvae_21 = linspace(1, length(ImpulseLarvae_21), length(ImpulseLarvae
 NormLarvae_21 = normpdf(TimeUnits_Larvae_21, ElabData_MeanLarvae_21, ...
     ElabData_DevStLarvae_21);
 
-    % Larvae 24캜
+    % Larvae 24째C
 
 ElabData_MeanLarvae_24 = mean(DelayLarvae_24);
 ElabData_DevStLarvae_24 = std(DelayLarvae_24);
@@ -400,7 +400,7 @@ TimeUnits_Larvae_24 = linspace(1, length(ImpulseLarvae_24), length(ImpulseLarvae
 NormLarvae_24 = normpdf(TimeUnits_Larvae_24, ElabData_MeanLarvae_24, ...
     ElabData_DevStLarvae_24);
 
-    % Larvae 26캜
+    % Larvae 26째C
 
 ElabData_MeanLarvae_26 = mean(DelayLarvae_26);
 ElabData_DevStLarvae_26 = std(DelayLarvae_26);
@@ -414,7 +414,7 @@ TimeUnits_Larvae_26 = linspace(1, length(ImpulseLarvae_26), length(ImpulseLarvae
 NormLarvae_26 = normpdf(TimeUnits_Larvae_26, ElabData_MeanLarvae_26, ...
     ElabData_DevStLarvae_26);
 
-    % Larvae 28캜
+    % Larvae 28째C
 
 ElabData_MeanLarvae_28 = mean(DelayLarvae_28);
 ElabData_DevStLarvae_28 = std(DelayLarvae_28);
@@ -428,7 +428,7 @@ TimeUnits_Larvae_28 = linspace(1, length(ImpulseLarvae_28), length(ImpulseLarvae
 NormLarvae_28 = normpdf(TimeUnits_Larvae_28, ElabData_MeanLarvae_28, ...
     ElabData_DevStLarvae_28);
 
-    % Larvae 30캜
+    % Larvae 30째C
 
 ElabData_MeanLarvae_30 = mean(DelayLarvae_30);
 ElabData_DevStLarvae_30 = std(DelayLarvae_30);
@@ -442,7 +442,7 @@ TimeUnits_Larvae_30 = linspace(1, length(ImpulseLarvae_30), length(ImpulseLarvae
 NormLarvae_30 = normpdf(TimeUnits_Larvae_30, ElabData_MeanLarvae_30, ...
     ElabData_DevStLarvae_30);
 
-    % Larvae 34캜
+    % Larvae 34째C
 
 ElabData_MeanLarvae_34 = mean(DelayLarvae_34);
 ElabData_DevStLarvae_34 = std(DelayLarvae_34);
@@ -456,7 +456,7 @@ TimeUnits_Larvae_34 = linspace(1, length(ImpulseLarvae_34), length(ImpulseLarvae
 NormLarvae_34 = normpdf(TimeUnits_Larvae_34, ElabData_MeanLarvae_34, ...
     ElabData_DevStLarvae_34);
 
-    % Pupae 18캜
+    % Pupae 18째C
 
 ElabData_MeanPupae_18 = mean(DelayPupae_18);
 ElabData_DevStPupae_18 = std(DelayPupae_18);
@@ -470,7 +470,7 @@ TimeUnits_Pupae_18 = linspace(1, length(ImpulsePupae_18), length(ImpulsePupae_18
 NormPupae_18 = normpdf(TimeUnits_Pupae_18, ElabData_MeanPupae_18, ...
     ElabData_DevStPupae_18);
 
-    % Pupae 21캜
+    % Pupae 21째C
 
 ElabData_MeanPupae_21 = mean(DelayPupae_21);
 ElabData_DevStPupae_21 = std(DelayPupae_21);
@@ -484,7 +484,7 @@ TimeUnits_Pupae_21 = linspace(1, length(ImpulsePupae_21), length(ImpulsePupae_21
 NormPupae_21 = normpdf(TimeUnits_Pupae_21, ElabData_MeanPupae_21, ...
     ElabData_DevStPupae_21);
 
-    % Pupae 24캜
+    % Pupae 24째C
 
 ElabData_MeanPupae_24 = mean(DelayPupae_24);
 ElabData_DevStPupae_24 = std(DelayPupae_24);
@@ -498,7 +498,7 @@ TimeUnits_Pupae_24 = linspace(1, length(ImpulsePupae_24), length(ImpulsePupae_24
 NormPupae_24 = normpdf(TimeUnits_Pupae_24, ElabData_MeanPupae_24, ...
     ElabData_DevStPupae_24);
 
-    % Pupae 26캜
+    % Pupae 26째C
 
 ElabData_MeanPupae_26 = mean(DelayPupae_26);
 ElabData_DevStPupae_26 = std(DelayPupae_26);
@@ -512,7 +512,7 @@ TimeUnits_Pupae_26 = linspace(1, length(ImpulsePupae_26), length(ImpulsePupae_26
 NormPupae_26 = normpdf(TimeUnits_Pupae_26, ElabData_MeanPupae_26, ...
     ElabData_DevStPupae_26);
 
-    % Pupae 28캜
+    % Pupae 28째C
 
 ElabData_MeanPupae_28 = mean(DelayPupae_28);
 ElabData_DevStPupae_28 = std(DelayPupae_28);
@@ -526,7 +526,7 @@ TimeUnits_Pupae_28 = linspace(1, length(ImpulsePupae_28), length(ImpulsePupae_28
 NormPupae_28 = normpdf(TimeUnits_Pupae_28, ElabData_MeanPupae_28, ...
     ElabData_DevStPupae_28);
 
-    % Pupae 30캜
+    % Pupae 30째C
 
 ElabData_MeanPupae_30 = mean(DelayPupae_30);
 ElabData_DevStPupae_30 = std(DelayPupae_30);
@@ -540,7 +540,7 @@ TimeUnits_Pupae_30 = linspace(1, length(ImpulsePupae_30), length(ImpulsePupae_30
 NormPupae_30 = normpdf(TimeUnits_Pupae_30, ElabData_MeanPupae_30, ...
     ElabData_DevStPupae_30);
 
-    % Pupae 34캜
+    % Pupae 34째C
 
 ElabData_MeanPupae_34 = mean(DelayPupae_34);
 ElabData_DevStPupae_34 = std(DelayPupae_34);
