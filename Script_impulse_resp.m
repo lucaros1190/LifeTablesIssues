@@ -229,6 +229,30 @@ ImpulsePupae_28 = Pupae_28 / TotalPupae_28;
 ImpulsePupae_30 = Pupae_30 / TotalPupae_30;
 ImpulsePupae_34 = Pupae_34 / TotalPupae_34;
 
+Impulse_WLF_Eggs_18 = WLF_Eggs_18 / TotalEggs_18;
+Impulse_WLF_Eggs_21 = WLF_Eggs_21 / TotalEggs_21;
+Impulse_WLF_Eggs_24 = WLF_Eggs_24 / TotalEggs_24;
+Impulse_WLF_Eggs_26 = WLF_Eggs_26 / TotalEggs_26;
+Impulse_WLF_Eggs_28 = WLF_Eggs_28 / TotalEggs_28;
+Impulse_WLF_Eggs_30 = WLF_Eggs_30 / TotalEggs_30;
+Impulse_WLF_Eggs_34 = WLF_Eggs_34 / TotalEggs_34;
+
+Impulse_WLF_Larvae_18 = WLF_Larvae_18 / TotalLarvae_18;
+Impulse_WLF_Larvae_21 = WLF_Larvae_21 / TotalLarvae_21;
+Impulse_WLF_Larvae_24 = WLF_Larvae_24 / TotalLarvae_24;
+Impulse_WLF_Larvae_26 = WLF_Larvae_26 / TotalLarvae_26;
+Impulse_WLF_Larvae_28 = WLF_Larvae_28 / TotalLarvae_28;
+Impulse_WLF_Larvae_30 = WLF_Larvae_30 / TotalLarvae_30;
+Impulse_WLF_Larvae_34 = WLF_Larvae_34 / TotalLarvae_34;
+
+Impulse_WLF_Pupae_18 = WLF_Pupae_18 / TotalPupae_18;
+Impulse_WLF_Pupae_21 = WLF_Pupae_21 / TotalPupae_21;
+Impulse_WLF_Pupae_24 = WLF_Pupae_24 / TotalPupae_24;
+Impulse_WLF_Pupae_26 = WLF_Pupae_26 / TotalPupae_26;
+Impulse_WLF_Pupae_28 = WLF_Pupae_28 / TotalPupae_28;
+Impulse_WLF_Pupae_30 = WLF_Pupae_30 / TotalPupae_30;
+Impulse_WLF_Pupae_34 = WLF_Pupae_34 / TotalPupae_34;
+
 
 % Expected values and standard deviations
 % This is the classical life tables representation with mean =/- SD
@@ -1601,4 +1625,4 @@ LifeCycle_LifTab_Pupae_34 = TotalEggs_34 * (LifeTab_OutEggs_34 * ...
 % Recalling the script for plotting results
 
 run("Plots.m")
-run("PlotDetails.m")
+run("PlotsDetails.m")

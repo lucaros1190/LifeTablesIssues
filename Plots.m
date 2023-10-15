@@ -500,4 +500,175 @@ ylabel('Number of emerging adults')
 hold off
 
 
-    
+    % FIGURE S1: qqplots of the distributions
+
+    % Eggs 21
+
+figure
+
+subplot(4,3,1);
+
+hold on
+
+qqplot(IR_Eggs_21, IR_LifeTab_Eggs_21)
+
+xlabel('Experimental data')
+ylabel('Gaussian distribution')
+title('Eggs 21 °C')
+
+hold off
+
+    % Eggs 26
+
+subplot(4,3,4);
+
+hold on
+
+qqplot(IR_Eggs_26, IR_LifeTab_Eggs_26)
+
+xlabel('Experimental data')
+ylabel('Gaussian distribution')
+title('Eggs 26 °C')
+
+hold off
+
+    % Eggs 28
+
+subplot(4,3,7);
+
+hold on
+
+qqplot(IR_Eggs_28, IR_LifeTab_Eggs_28)
+
+xlabel('Experimental data')
+ylabel('Gaussian distribution')
+title('Eggs 28 °C')
+
+hold off
+
+    % Eggs 30
+
+subplot(4,3,10);
+
+hold on
+
+qqplot(IR_Eggs_30, IR_LifeTab_Eggs_30)
+
+xlabel('Experimental data')
+ylabel('Gaussian distribution')
+title('Eggs 30 °C')
+
+hold off
+
+    % Larva 21
+
+subplot(4,3,2);
+
+hold on
+
+qqplot(IR_Larvae_21, IR_LifeTab_Larvae_21)
+
+xlabel('Experimental data')
+ylabel('Gaussian distribution')
+title('Larvae 21 °C')
+
+hold off
+
+    % Larva 26
+
+subplot(4,3,5);
+
+hold on
+
+qqplot(IR_Larvae_26, IR_LifeTab_Larvae_26)
+
+xlabel('Experimental data')
+ylabel('Gaussian distribution')
+title('Larvae 26 °C')
+
+hold off
+
+    % Larva 28
+
+subplot(4,3,8);
+
+hold on
+
+qqplot(IR_Larvae_28, IR_LifeTab_Larvae_28)
+
+xlabel('Experimental data')
+ylabel('Gaussian distribution')
+title('Larvae 28 °C')
+
+hold off
+
+    % Larva 30
+
+subplot(4,3,11);
+
+hold on
+
+qqplot(IR_Larvae_30, IR_LifeTab_Larvae_30)
+
+xlabel('Experimental data')
+ylabel('Gaussian distribution')
+title('Larvae 30 °C')
+
+hold off
+
+    % Pupa 21
+
+subplot(4,3,3);
+
+hold on
+
+qqplot(IR_Pupae_21, IR_LifeTab_Pupae_21)
+
+xlabel('Experimental data')
+ylabel('Gaussian distribution')
+title('Pupae 21 °C')
+
+hold off
+
+    % Pupa 26
+
+subplot(4,3,6);
+
+hold on
+
+qqplot(IR_Pupae_26, IR_LifeTab_Pupae_26)
+
+xlabel('Experimental data')
+ylabel('Gaussian distribution')
+title('Pupae 26 °C')
+
+hold off
+
+    % Pupa 28
+
+subplot(4,3,9);
+
+hold on
+
+qqplot(IR_Pupae_28, IR_LifeTab_Pupae_28)
+
+xlabel('Experimental data')
+ylabel('Gaussian distribution')
+title('Pupae 28 °C')
+
+hold off
+
+    % Pupa 30
+
+subplot(4,3,12);
+
+hold on
+
+qqplot(IR_Pupae_30, IR_LifeTab_Pupae_30)
+
+xlabel('Experimental data')
+ylabel('Gaussian distribution')
+title('Pupae 30 °C')
+
+hold off
+
